@@ -1,0 +1,164 @@
+/* Created by Dhruve*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fullbody{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    background-color:#a2a8d3;
+    overflow: hidden;
+}
+.copyright { 
+font-size: 11px; 
+text-align:center; 
+}
+    
+
+.head{
+    margin: 10px 10px;
+} 
+
+.sub-logo{
+    font-weight: bold;
+    color: #38598b;
+    
+    text-align:center;  
+}   
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color:#113f67;
+    text-align:center;
+}
+.follower{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+    
+}
+.item{
+    margin: 20px;
+    padding: 30px 80px;
+    text-align: center;
+    background-color: hsl(227, 47%, 96%);
+}
+.follower .item face{
+    background-color:red ;
+}
+.facecolor{
+   color: hsl(208, 92%, 53%);
+}
+
+.date{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.green{
+margin-top: 30px;
+    color: hsl(163, 72%, 41%);
+}
+
+.red{
+margin-top: 30px;
+    color: hsl(356, 69%, 56%)
+}
+
+.wight{
+    font-weight: lighter;
+    letter-spacing: 6px;
+}
+.fa-twitter{
+    color: hsl(203, 89%, 53%);
+}
+
+.mad{
+    padding: 30px 94px;
+}
+
+.insta{
+    color:linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%) ;
+}
+
+.face{
+    border-top: 4px solid hsl(208, 92%, 53%);
+    border-radius: 8px;
+}
+
+.instagram{
+border-top: 4px solid;
+border-top-color: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+  border-radius: 8px;
+}
+
+.youtube{
+    border-top: 4px solid hsl(348, 97%, 39%);
+    border-radius: 8px;
+}
+
+.fa-youtube{
+    color: hsl(348, 97%, 39%);
+}
+
+.today{
+    color: #38598b;
+    font-size: 28px;
+    text-align: center;
+}
+
+.detail{
+    border-radius: 8px;
+    padding: 20px 0px;
+    margin: 20px;
+    background-color: hsl(227, 47%, 96%);
+    
+}
+.left{
+    float: right;
+    margin-right: 10px;  
+}
+
+.right{
+font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    color: hsl(228, 12%, 44%);
+    font-size: 14px;
+}
+
+.fac{
+padding-left: 4px;
+     background-color: hsl(208, 92%, 53%);
+     color: white;
+}
+.black{
+display: inline;
+    color: black;
+    font-size: 28px;
+}
+.dow{
+    margin-top: 11px;
+}
+.insto{
+font-size: 18px;
+}
+.fa-youtube-square{
+background: hsl(348, 97%, 39%);
+    color: white;
+}
+.toggle{
+    float: right;
+    display: inline;
+}
+.darkmode{
+    display: inline;
+}
+#toggle{
+    display:none;
+  }
